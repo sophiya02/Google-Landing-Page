@@ -1,0 +1,131 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link{
+    display: flex;
+    position: fixed;
+    right:50px;
+    top: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.link a{
+    margin:5px;
+    padding: 5px;
+    color:blue;
+
+}
+.link a:hover{
+    text-decoration: underline;;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display .image{
+    display: block;
+    width:500;
+    margin: 200px auto 0px auto;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    width:1200px;
+    height: 85px;
+    border-radius: 45px;
+    background-color: rgb(243, 243, 243);
+    
+}
+
+.search .search-logo img,.search .voice-search img{
+    display: block;
+    width:90px;
+    height: 60px;
+    margin: auto;
+    border: 1px solid rgb(248, 235, 235);
+    border-radius:50%;
+    background-color: red;
+    background-color: transparent;
+}
+.search .voice-search img{
+    cursor: pointer;
+    width: 80px;
+    height: 60px;
+}
+.search .search-logo{
+    /* width:auto; */
+    margin: 15px;
+    margin:5px 5px 5px 10px ;
+}
+.search .search-bar{
+    width: 1000px;
+    align-self: center;
+}
+.search .search-bar input{
+    width: 1000px;
+    height: 80px;
+    cursor:text;
+    font-size:2rem;
+    margin:auto;
+    border:none;
+}
+
+.search .voice-search{
+    margin:5px 10px 5px 5px ;
+    
+}
+.recent{
+    display: flex;
+    margin: 25px auto;
+}
+.recent .block{
+    margin:60px;
+    
+}
+.recent .block:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    border: 15px;    
+}
+.recent .block img{
+    display: block;
+    width:120px;
+    height:120px;
+    margin: auto ;
+    border-radius: 50%;
+
+}
+.recent .block p{
+    font-size:2rem;
+    text-align: center;
+
+
+}
+
+.btn{
+    width:20rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 2rem;
+    position: fixed;
+    float:right;
+    text-align: center;
+    right:50px;
+    bottom : 50px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 3px rgb(116, 99, 99);
+}
+.btn:hover{
+    background-color: rgb(224, 243, 237);
+    opacity: .8;
+}
+.btn input{
+    display:none;
+}
+
